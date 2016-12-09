@@ -4,3 +4,6 @@ ROOT_PATH=$(dirname $BASH_SOURCE);
 
 
 source $ROOT_PATH/npm.sh;
+
+
+unset ROOT_PATH;

@@ -23,6 +23,8 @@ alias nu-g='npm uninstall -g';
 alias nu-d='npm uninstall --save-dev';
 alias nu-s='npm uninstall --save';
 
+## functions:
+alias npm-remove-item='_(){ rm -rf node_modules/$1; }; _';
 
 ## npm profile:
 alias e-npmrc='vim ~/.npmrc';

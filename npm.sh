@@ -15,7 +15,7 @@ alias np-sync='npm run sync';
 
 ## npm install:
 alias ni='npm install';
-alias ni-p='npm root -g';
+alias ni-rp='npm root -g';
 alias ni-g='npm install -g';
 alias ni-d='npm install --save-dev';
 alias ni-s='npm install --save';

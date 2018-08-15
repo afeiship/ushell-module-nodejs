@@ -19,6 +19,7 @@ alias ni-rp='npm root -g';
 alias ni-g='npm install -g';
 alias ni-d='npm install --save-dev';
 alias ni-s='npm install --save';
+alias ni-n='npm install --no-save';
 
 ## npm uninstall
 alias nu='npm uninstall';

@@ -14,7 +14,9 @@ alias np-sync='npm run sync';
 
 
 ## npm install:
-alias ni='npm install';
+alias nl='npm link';
+alias ni='npm install --registry=https://registry.npm.taobao.org';
+alias nio='npm install';
 alias ni-rp='npm root -g';
 alias ni-g='npm install -g';
 alias ni-d='npm install --save-dev';

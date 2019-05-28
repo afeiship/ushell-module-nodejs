@@ -1,6 +1,2 @@
 # ushell-module-nodejs
-Unix like shell module for nodejs.
-
-## resources:
-
-## commands:
+> Unix like shell module for nodejs.

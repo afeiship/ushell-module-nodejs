@@ -5,12 +5,10 @@ alias np-clean='rm -rf node_modules';
 alias np-remove='npm cache clean && rm -rf node_modules';
 
 ## npm run:
-alias np-dev='npm run dev';
-alias np-build='npm run build';
-alias np-start='npm run start';
-alias np-dll='npm run dll';
-alias np-serve='npm run serve';
-alias np-sync='npm run sync';
+alias nr='npm run';
+alias nrd='npm run dev';
+alias nrb='npm run build';
+alias nrs='npm run start';
 
 
 ## npm install:

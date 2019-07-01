@@ -13,6 +13,7 @@ alias nrs='npm run start';
 
 ## npm install:
 alias nl='npm link';
+alias nup='npm update';
 alias ni='npm install --registry=https://registry.npm.taobao.org';
 alias nio='npm install';
 alias ni-rp='npm root -g';

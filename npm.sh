@@ -13,7 +13,7 @@ alias nrs='npm run start';
 
 ## npm install:
 alias nl='npm link';
-alias nup='npm update';
+alias nu='npm update';
 alias ni='npm install --registry=https://registry.npm.taobao.org';
 alias nio='npm install';
 alias ni-rp='npm root -g';
@@ -23,10 +23,10 @@ alias ni-s='npm install --save';
 alias ni-n='npm install --no-save';
 
 ## npm uninstall
-alias nu='npm uninstall';
-alias nu-g='npm uninstall -g';
-alias nu-d='npm uninstall --save-dev';
-alias nu-s='npm uninstall --save';
+alias nut='npm uninstall';
+alias nut-g='npm uninstall -g';
+alias nut-d='npm uninstall --save-dev';
+alias nut-s='npm uninstall --save';
 
 ## functions:
 alias npm-remove-item='_(){ rm -rf node_modules/$1; }; _';

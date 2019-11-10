@@ -7,7 +7,9 @@
   "description": "Unix like shell module for nodejs.",
   "main": "index.sh",
   "keywords": [
-    "ushell"
+    "ushell",
+    "nodejs",
+    "npm"
   ],
   "license": "MIT",
   "ignore": [

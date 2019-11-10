@@ -9,6 +9,7 @@ alias nr='npm run';
 alias nrd='npm run dev';
 alias nrb='npm run build';
 alias nrs='npm run start';
+alias nrst='npm run storybook';
 
 
 ## npm install:

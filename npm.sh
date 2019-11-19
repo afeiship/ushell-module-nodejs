@@ -6,6 +6,8 @@ alias np-remove='npm cache clean && rm -rf node_modules';
 
 ## npm run:
 alias nr='npm run';
+alias np='npm publsih';
+alias npp='npm publish --access=public';
 alias nrd='npm run dev';
 alias nrb='npm run build';
 alias nrs='npm run start';

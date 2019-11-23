@@ -14,6 +14,10 @@ alias nrb='npm run build';
 alias nrs='npm run start';
 alias nrst='npm run storybook';
 
+# release step1/2/3
+alias nrr='npm run release';
+alias nrp='npm run publish';
+alias nrt='npm run tagging';
 
 ## npm install:
 alias nl='npm link';

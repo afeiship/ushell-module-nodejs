@@ -19,6 +19,9 @@ alias nrr='npm run release';
 alias nrp='npm run publish';
 alias nrt='npm run tagging';
 
+# version
+alias nvp='npm version patch';
+
 ## npm install:
 alias nl='npm link';
 alias nu='npm update';

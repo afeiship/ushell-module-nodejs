@@ -20,6 +20,7 @@ alias nrp='npm run publish';
 alias nrt='npm run tagging';
 
 # version
+alias nv='npm version';
 alias nvp='npm version patch';
 
 ## npm install:

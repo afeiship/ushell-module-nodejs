@@ -26,6 +26,7 @@ alias nvp='npm version patch';
 ## npm install:
 alias nl='npm link';
 alias nu='npm update';
+alias nug='npm upgrade';
 alias ni='npm install --registry=https://registry.npm.taobao.org';
 alias nio='npm install';
 alias ni-rp='npm root -g';

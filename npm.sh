@@ -41,6 +41,9 @@ alias nut-g='npm uninstall -g';
 alias nut-d='npm uninstall --save-dev';
 alias nut-s='npm uninstall --save';
 
+# npm global
+alias ng-list='npm list -g --depth 0';
+
 ## functions:
 alias npm-remove-item='_(){ rm -rf node_modules/$1; }; _';
 

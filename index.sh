@@ -8,6 +8,9 @@ source $ROOT_PATH/npm-afeiship.sh;
 
 export NODE_PATH=$HOME/.node_modules;
 
+# modify default global path:
+export PATH=~/.npm-global/bin:$PATH;
+
 # brew install nodejs
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/openssl/lib"

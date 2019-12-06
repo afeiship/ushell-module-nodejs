@@ -1,4 +1,5 @@
 # npm global
+- https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally
 
 1. Back up your computer.
 > On the command line, in your home directory, create a directory for global installations:

@@ -35,6 +35,11 @@ alias ni-d='npm install --save-dev';
 alias ni-s='npm install --save';
 alias ni-n='npm install --no-save';
 
+
+# npm install peers (see: https://github.com/afeiship/install-peers.git)
+alias nip='install-peers';
+
+
 ## npm uninstall
 alias nut='npm uninstall';
 alias nut-g='npm uninstall -g';

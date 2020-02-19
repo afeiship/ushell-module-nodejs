@@ -22,6 +22,7 @@ alias nrt='npm run tagging';
 # version
 alias nv='npm version';
 alias nvp='npm version patch';
+alias nvpn='npm version patch --no-git-tag-version';
 alias nvpp='npm version patch && git push --tags';
 
 ## npm install:

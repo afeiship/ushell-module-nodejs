@@ -40,6 +40,7 @@ alias ni-n='npm install --no-save';
 
 # npm install peers (see: https://github.com/afeiship/install-peers.git)
 alias nip='install-peers';
+alias nipp="npm i && install-peers"
 
 
 ## npm uninstall

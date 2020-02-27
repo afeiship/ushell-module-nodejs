@@ -24,6 +24,8 @@ alias nv='npm version';
 alias nvp='npm version patch';
 alias nvpn='npm version patch --no-git-tag-version';
 alias nvpp='npm version patch && git push --tags';
+alias nvmi='npm version minor && git push --tags';
+alias nvma='npm version major && git push --tags';
 
 ## npm install:
 alias nl='npm link';

@@ -1,5 +1,5 @@
 {
-  "name": "ushell-module-nodejs",
+  "name": "@feizheng/ushell-module-nodejs",
   "version": "1.0.0",
   "description": "Unix like shell module for nodejs.",
   "main": "index.sh",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/afeiship/ushell-module-nodejs/issues"
   },
-  "homepage": "https://github.com/afeiship/ushell-module-nodejs#readme"
+  "homepage": "https://github.com/afeiship/ushell-module-nodejs#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }

@@ -59,3 +59,5 @@ alias npm-remove-item='_(){ rm -rf node_modules/$1; }; _';
 
 ## npm profile:
 alias e-npmrc='vim ~/.npmrc';
+
+alias ncuu='ncu -u';

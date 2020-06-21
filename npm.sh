@@ -18,6 +18,7 @@ alias nrst='npm run storybook';
 alias nrr='npm run release';
 alias nrp='npm run publish';
 alias nrt='npm run tagging';
+alias nup='npm --force unpublish'
 
 # version
 alias nv='npm version';

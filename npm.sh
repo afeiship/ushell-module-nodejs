@@ -33,6 +33,7 @@ alias nl='npm link';
 alias nu='npm update';
 alias nug='npm run upgrade';
 alias ni='npm install --registry=https://registry.npm.taobao.org';
+alias nii='npm install --registry=https://registry.npmjs.org';
 alias nio='npm install';
 alias ni-rp='npm root -g';
 alias ni-g='npm install -g';

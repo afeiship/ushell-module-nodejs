@@ -41,6 +41,7 @@ alias ni-d='npm install --save-dev';
 alias ni-s='npm install --save';
 alias ni-n='npm install --no-save';
 alias info='npm info --registry=https://registry.npmjs.org'
+alias info7='npm info --registry=https://repos.saybot.net/repository/alo7npm/'
 
 
 # npm install peers (see: https://github.com/afeiship/install-peers.git)

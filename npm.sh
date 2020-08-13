@@ -8,6 +8,7 @@ alias np-remove='npm cache clean && rm -rf node_modules';
 alias nr='npm run';
 alias np='npm publish';
 alias npp='npm publish --access=public';
+alias tbsync='cnpm sync '
 alias ntp='npm run trypublsih';
 alias nrd='npm run dev';
 alias nrb='npm run build';

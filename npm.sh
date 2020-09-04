@@ -48,7 +48,10 @@ alias info7='npm info --registry=https://repos.saybot.net/repository/alo7npm/'
 
 # npm install peers (see: https://github.com/afeiship/install-peers.git)
 alias nip='install-peers';
-alias nipp="npm i && install-peers"
+# alias nipp="npm i && install-peers"
+
+# see https://github.com/spatie/npm-install-peers#readme
+alias nipp="npm i && npm-install-peers"
 
 
 ## npm uninstall

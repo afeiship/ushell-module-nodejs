@@ -51,6 +51,7 @@ alias nip='install-peers';
 # alias nipp="npm i && install-peers"
 
 # see https://github.com/spatie/npm-install-peers#readme
+# npm install -g npm-install-peers
 alias nipp="npm i && npm-install-peers"
 
 

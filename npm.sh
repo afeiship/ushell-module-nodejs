@@ -8,6 +8,9 @@ alias np-remove='npm cache clean && rm -rf node_modules';
 alias nr='npm run';
 alias np='npm publish';
 alias npp='npm publish --access=public';
+
+# https://www.npmjs.com/package/publish-preview
+alias npv='pubview';
 alias nppc='npm publish --access=public && cnpm sync';
 alias tbsync='cnpm sync '
 alias ntp='npm run trypublsih';

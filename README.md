@@ -3,7 +3,7 @@
 
 ## installation
 ```shell
-npm install -S @feizheng/ushell-module-nodejs
+npm install -S @jswork/ushell-module-nodejs
 ```
 
 ## deps

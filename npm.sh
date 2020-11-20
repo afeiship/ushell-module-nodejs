@@ -21,6 +21,7 @@ alias nrst='npm run storybook';
 
 # release step1/2/3
 alias nrr='npm run release';
+alias nrrv='npm run release --only-version';
 alias nrci='npm run release -- --ci';
 alias nrp='npm run publish';
 alias nrt='npm run tagging';

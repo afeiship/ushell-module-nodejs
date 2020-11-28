@@ -1,6 +1,6 @@
 {
   "name": "@jswork/ushell-module-nodejs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Unix like shell module for nodejs.",
   "main": "index.sh",
   "repository": {
@@ -9,10 +9,11 @@
   },
   "keywords": [
     "ushell",
+    "node",
+    "npm",
+    "bash",
     "unix",
-    "shell",
-    "system",
-    "infomation"
+    "cli"
   ],
   "author": "afei",
   "license": "MIT",

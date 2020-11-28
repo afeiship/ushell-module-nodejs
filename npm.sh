@@ -20,6 +20,7 @@ alias nrs='npm run start';
 alias nrst='npm run storybook';
 
 # release step1/2/3
+alias nir='npm init release-it';
 alias nrr='npm run release';
 alias nrrv='npm run release -- --only-version';
 alias nrci='npm run release -- --ci';

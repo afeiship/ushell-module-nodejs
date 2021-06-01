@@ -78,3 +78,8 @@ alias npm-remove-item='_(){ rm -rf node_modules/$1; }; _';
 alias e-npmrc='vim ~/.npmrc';
 
 alias ncuu='ncu -u';
+
+
+# cli for package.json
+# https://github.com/keithamus/sort-package-json
+alias spj='sort-package-json';

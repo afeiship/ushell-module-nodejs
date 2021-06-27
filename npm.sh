@@ -79,6 +79,10 @@ alias e-npmrc='vim ~/.npmrc';
 
 alias ncuu='ncu -u';
 
+# node task list
+# npm i -g ntl
+alias ntl="ntl -s 20"
+
 
 # cli for package.json
 # https://github.com/keithamus/sort-package-json

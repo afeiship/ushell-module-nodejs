@@ -10,14 +10,9 @@ alias np='npm publish';
 alias npp='npm publish --access=public';
 
 # https://www.npmjs.com/package/publish-preview
-alias pp='pubview';
+alias ppv='pubview';
 alias nppc='npm publish --access=public && cnpm sync';
-alias tbsync='cnpm sync '
-alias ntp='npm run trypublsih';
-alias nrd='npm run dev';
-alias nrb='npm run build';
-alias nrs='npm run start';
-alias nrst='npm run storybook';
+alias tbsync='cnpm sync'
 
 # release step1/2/3
 alias nir='npm init release-it';
@@ -25,8 +20,6 @@ alias nrr='npm run release';
 alias nrrv='npm run release -- --only-version';
 alias nrci='npm run release -- --ci --npm.skipChecks';
 alias nrp='npm run publish';
-alias nrt='npm run tagging';
-alias nup='npm --force unpublish'
 
 # version
 alias nv='npm version';
@@ -39,13 +32,11 @@ alias nvma='npm version major && git push --tags';
 ## npm install:
 alias nl='npm link';
 alias nu='npm update';
-alias nug='npm run upgrade';
 alias ni='npm install --registry=https://registry.npm.taobao.org';
 alias nii='npm install --registry=https://registry.npmjs.org';
 alias ni7='npm install --registry=https://repos.saybot.net/repository/alo7npm/';
-alias nio='npm install';
-alias ni-rp='npm root -g';
 alias ni-g='npm install -g';
+alias ni-ug='npm uninstall -g';
 alias ni-d='npm install --save-dev';
 alias ni-s='npm install --save';
 alias ni-n='npm install --no-save';
@@ -60,13 +51,6 @@ alias nip='install-peers';
 # see https://github.com/spatie/npm-install-peers#readme
 # npm install -g npm-install-peers
 alias nipp="npm i && npm-install-peers"
-
-
-## npm uninstall
-alias nut='npm uninstall';
-alias nut-g='npm uninstall -g';
-alias nut-d='npm uninstall --save-dev';
-alias nut-s='npm uninstall --save';
 
 # npm global
 alias ng-list='npm list -g --depth 0';

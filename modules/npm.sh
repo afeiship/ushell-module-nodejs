@@ -65,7 +65,7 @@ alias ncuu='ncu -u';
 
 # node task list
 # npm i -g ntl
-alias ntl="ntl -s 20"
+# alias ntl="ntl -s 20"
 
 
 # cli for package.json

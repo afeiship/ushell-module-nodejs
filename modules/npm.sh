@@ -61,7 +61,11 @@ alias npm-remove-item='_(){ rm -rf node_modules/$1; }; _';
 ## npm profile:
 alias e-npmrc='vim ~/.npmrc';
 
+# npm update check
 alias ncuu='ncu -u';
+alias ncuj='ncu "/^@jswork/"'
+alias ncu-jsw='ncu "/^@jswork/"'
+alias ncu-alo7='ncu "/^@alo7/"'
 
 # node task list
 # npm i -g ntl

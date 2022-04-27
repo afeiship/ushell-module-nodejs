@@ -3,13 +3,15 @@
 ROOT_PATH=$(dirname $BASH_SOURCE);
 
 
-source $ROOT_PATH/modules/yarn.sh;
-source $ROOT_PATH/modules/nvm.sh;
+source $ROOT_PATH/modules/npm-afeiship.sh;
 source $ROOT_PATH/modules/npm.sh;
 source $ROOT_PATH/modules/ntl.sh;
+source $ROOT_PATH/modules/nvm.sh;
+source $ROOT_PATH/modules/plop.sh;
 # source $ROOT_PATH/modules/pnpm.sh;
 source $ROOT_PATH/modules/serve.sh;
-source $ROOT_PATH/modules/npm-afeiship.sh;
+source $ROOT_PATH/modules/yarn.sh;
+
 
 export NODE_PATH=$HOME/.node_modules;
 

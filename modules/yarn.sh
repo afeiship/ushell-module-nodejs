@@ -26,3 +26,6 @@ alias ypt='yarn run tagging';
 
 # version
 alias yvp='yarn version patch';
+
+# install & link
+alias yil="yarn install && yarn link"

@@ -4,6 +4,7 @@ ROOT_PATH=$(dirname $BASH_SOURCE);
 
 
 source $ROOT_PATH/modules/bun.sh;
+source $ROOT_PATH/modules/fnm.sh;
 source $ROOT_PATH/modules/npm-afeiship.sh;
 source $ROOT_PATH/modules/npm.sh;
 source $ROOT_PATH/modules/ntl.sh;

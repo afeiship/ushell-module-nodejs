@@ -30,3 +30,4 @@ alias yvp='yarn version patch';
 
 # install & link
 alias yil="yarn install && yarn link"
+alias yip="proxy yarn install --registry=https://registry.npmjs.org"

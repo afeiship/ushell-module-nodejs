@@ -1,6 +1,6 @@
 {
   "name": "@jswork/ushell-module-nodejs",
-  "version": "1.0.39",
+  "version": "1.0.40",
   "description": "Unix like shell module for nodejs.",
   "main": "index.sh",
   "repository": {
@@ -28,6 +28,6 @@
     "release": "release-it"
   },
   "devDependencies": {
-    "release-it": "^14.2.2"
+    "release-it": "^15.6.0"
   }
 }

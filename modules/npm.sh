@@ -12,7 +12,7 @@ alias npp='npm publish --access=public';
 # https://www.npmjs.com/package/publish-preview
 alias ppv='pubview';
 alias nppc='npm publish --access=public && cnpm sync';
-alias tbsync='cnpm sync'
+alias tbs='cnpm sync'
 
 # release step1/2/3
 alias nir='npm init release-it';

@@ -26,8 +26,5 @@
   },
   "scripts": {
     "release": "release-it"
-  },
-  "devDependencies": {
-    "release-it": "^15.6.0"
   }
 }

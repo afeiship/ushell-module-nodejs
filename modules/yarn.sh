@@ -14,11 +14,11 @@ alias yt='yarn test';
 alias ya='yarn add ';
 alias yi-s='yarn add'
 alias yi-d='yarn add -D ';
-alias yi-g='yarn global add ';
+alias yi-g='yarn global add';
+alias yi-ug='yarn global remove';
 alias yr='yarn remove ';
 alias yu='npm run upgrade';
 alias yv='npm run version';
-alias yg='yarn global add ';
 
 # release step1/2/3
 alias ypr='yarn run release';

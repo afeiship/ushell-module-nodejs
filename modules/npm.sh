@@ -19,6 +19,7 @@ alias nir='npm init release-it';
 alias nrr='npm run release';
 alias nrrv='npm run release -- --only-version';
 alias nrci='npm run release -- --ci --npm.skipChecks';
+alias nrcip='proxy npm run release -- --ci --npm.skipChecks';
 alias nrp='npm run publish';
 
 # version

@@ -13,6 +13,7 @@ alias npp='npm publish --access=public';
 alias ppv='pubview';
 alias nppc='npm publish --access=public && cnpm sync';
 alias tbs='cnpm sync'
+alias tbsn="cnpm sync $(npm pkg get name)"
 
 # release step1/2/3
 alias nir='npm init release-it';

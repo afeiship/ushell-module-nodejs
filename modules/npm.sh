@@ -13,7 +13,6 @@ alias npp='npm publish --access=public';
 alias ppv='pubview';
 alias nppc='npm publish --access=public && cnpm sync';
 alias tbs='cnpm sync'
-alias tbsn="cnpm sync $(npm pkg get name)"
 
 # release step1/2/3
 alias nir='npm init release-it';
@@ -78,3 +77,9 @@ alias ncu-alo7='ncu "/^@alo7/"'
 # cli for package.json
 # https://github.com/keithamus/sort-package-json
 alias spj='sort-package-json';
+
+
+# sync current pkg to taobao registry
+tbsn() {
+  cnpm sync "$(npm pkg get name)"
+}

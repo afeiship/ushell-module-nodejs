@@ -29,5 +29,6 @@ alias ypt='yarn run tagging';
 alias yvp='yarn version patch';
 
 # install & link
-alias yil="yarn install && yarn link"
-alias yip="proxy yarn install --registry=https://registry.npmjs.org"
+alias yil="yarn install && yarn link";
+alias yii="yarn install --registry=https://registry.npmjs.org";
+alias yip="proxy yarn install --registry=https://registry.npmjs.org";

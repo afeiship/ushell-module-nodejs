@@ -81,5 +81,5 @@ alias spj='sort-package-json';
 
 # sync current pkg to taobao registry
 tbsn() {
-  cnpm sync "$(npm pkg get name)"
+  cnpm sync "$(npm pkg get name | sed 's/\"//g')"
 }

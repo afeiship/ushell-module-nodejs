@@ -4,9 +4,7 @@
   },
   "hooks": {
     "after:init": ["t2k"],
-    "after:release": [
-      "cnpm sync \"$(npm pkg get name | sed 's/\"//g')\""
-    ]
+    "after:release": ["npm pkg get name | cnpm sync"]
   },
   "github": {
     "release": true,

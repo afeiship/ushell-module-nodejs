@@ -69,6 +69,10 @@ alias ncuj='ncu "/^@jswork/"'
 alias ncu-jsw='ncu "/^@jswork/"'
 alias ncu-alo7='ncu "/^@alo7/"'
 
+# ncu from npm registry
+alias rncuu='ncu -u --registry=https://registry.npmjs.org';
+alias rncu='ncu --registry=https://registry.npmjs.org';
+
 # node task list
 # npm i -g ntl
 # alias ntl="ntl -s 20"

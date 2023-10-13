@@ -18,6 +18,10 @@ source $ROOT_PATH/modules/yarn.sh;
 
 export NODE_PATH=$HOME/.node_modules;
 
+# cnpm + sync:
+alias tbs='cnpm sync';
+alias tbss="source $ROOT_PATH/modules/01-tbss.sh";
+
 # modify default global path:
 # export PATH=$HOME/.npm-global/bin:$PATH;
 # export PATH=$HOME/local/bin:$PATH;

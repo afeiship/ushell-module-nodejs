@@ -14,7 +14,7 @@ source $ROOT_PATH/modules/pnpm.sh;
 source $ROOT_PATH/modules/serve.sh;
 source $ROOT_PATH/modules/spa.sh;
 source $ROOT_PATH/modules/yarn.sh;
-
+source $ROOT_PATH/modules/02-pm2.sh;
 
 export NODE_PATH=$HOME/.node_modules;
 

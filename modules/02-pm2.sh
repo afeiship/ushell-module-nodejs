@@ -11,8 +11,8 @@ alias pm2s='pm2 start';
 alias pm2p='pm2 stop';
 alias pm2r='pm2 restart';
 alias pm2d='pm2 delete';
-alias pm2-logs='pm2 logs';
-alias pm22='pm2 start ecosystem.config.js';
+alias pm2lg='pm2 logs';
+alias pm22='pm2 start ecosystem.config.js || pm2 start ecosystem.config.cjs';
 
 alias pm2ss='pm2 start all';
 alias pm2pp='pm2 stop all';

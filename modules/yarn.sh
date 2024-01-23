@@ -1,15 +1,8 @@
 #!/usr/bin/env bash
 
-
-
 # ubuntu:
 if [[ $USM_OS_TYPE == 'ubuntu' ]]; then
   export PATH="$PATH:$(yarn global bin)";
-fi
-
-# macos
-if [[ $USM_OS_TYPE == 'macos' ]]; then
-  export PATH="$PATH:$HOME/.config/yarn/link";
 fi
 
 alias yarn-install='curl -o- -L https://yarnpkg.com/install.sh | bash';

@@ -10,13 +10,13 @@ source $ROOT_PATH/modules/ntl.sh;
 source $ROOT_PATH/modules/nvm.sh;
 source $ROOT_PATH/modules/pkg.sh;
 source $ROOT_PATH/modules/plop.sh;
-source $ROOT_PATH/modules/pnpm.sh;
 source $ROOT_PATH/modules/serve.sh;
 source $ROOT_PATH/modules/spa.sh;
 source $ROOT_PATH/modules/yarn.sh;
 source $ROOT_PATH/modules/02-pm2.sh;
 source $ROOT_PATH/modules/03-rif.sh;
 source $ROOT_PATH/modules/04-tiged.sh;
+source $ROOT_PATH/modules/05-pnpm.sh;
 
 export NODE_PATH=$HOME/.node_modules;
 

@@ -37,7 +37,8 @@ alias nii='npm install --registry=https://registry.npmjs.org'
 alias ni7='npm install --registry=https://repos.saybot.net/repository/alo7npm/'
 alias ni-g='npm install -g'
 alias ni-g2='npm install --location=global'
-alias ni-ug='npm uninstall --location=global'
+alias ni-ug='npm uninstall -g'
+alias ni-ug2='npm uninstall --location=global'
 alias ni-d='npm install --save-dev'
 alias ni-s='npm install --save'
 alias ni-n='npm install --no-save'
@@ -82,5 +83,5 @@ alias spj='sort-package-json'
 
 # sync current pkg to taobao registry
 tbsn() {
-	cnpm sync "$(npm pkg get name | sed 's/\"//g')"
+  cnpm sync "$(npm pkg get name | sed 's/\"//g')"
 }

@@ -2,6 +2,7 @@
 
 # install
 alias pi='pnpm install';
+alias pt='pnpm test';
 alias pii='pnpm install --registry=https://registry.npmjs.org';
 
 # add package

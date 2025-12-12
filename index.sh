@@ -18,6 +18,7 @@ source $ROOT_PATH/modules/03-lerna.sh;
 source $ROOT_PATH/modules/04-tiged.sh;
 source $ROOT_PATH/modules/05-pnpm.sh;
 source $ROOT_PATH/modules/06-gemini.sh;
+source $ROOT_PATH/modules/07-vitest.sh;
 
 export NODE_PATH=$HOME/.node_modules;
 

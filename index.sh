@@ -30,4 +30,7 @@ alias tbss="source $ROOT_PATH/modules/01-tbss.sh";
 # export PATH=$HOME/.npm-global/bin:$PATH;
 # export PATH=$HOME/local/bin:$PATH;
 
+# node24存在一些警告，暂时关闭：
+export NODE_NO_WARNINGS=1;
+
 unset ROOT_PATH;

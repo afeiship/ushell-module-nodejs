@@ -16,7 +16,6 @@ alias yl='yarn link';
 alias ys='yarn start';
 alias yst='yarn storybook';
 alias yt='yarn test';
-alias ya='yarn add ';
 alias yi-s='yarn add'
 alias yi-d='yarn add -D ';
 alias yi-g='yarn global add';

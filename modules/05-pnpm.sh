@@ -14,5 +14,5 @@ alias pi-g='pnpm add -g';
 alias pilg='pnpm link --global';
 alias pil='pnpm install && pnpm link --global';
 
-export PNPM_HOME="$HOME/Library/pnpm";
+export PNPM_HOME="$HOME/Library/pnpm/bin";
 export PATH="$PNPM_HOME:$PATH";

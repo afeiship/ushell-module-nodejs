@@ -2,8 +2,15 @@
 
 # https://github.com/nvm-sh/nvm
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# lazy-load nvm: defer the heavy `nvm.sh` source until `nvm` is invoked
+# NOTE: node/npm/npx are NOT wrapped (kept as-is per user preference)
+nvm() {
+    unset -f nvm
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+    nvm "$@"
+}
 
 # export NVM_NODEJS_ORG_MIRROR=https://registry.npmmirror.com/node;
 
@@ -11,6 +18,11 @@ export NVM_DIR="$HOME/.nvm"
 # NVM auto-switching
 
 cdnvm() {
+    # ensure nvm is loaded (replaces our lazy stub, one-time cost)
+    if declare -F nvm >/dev/null && grep -q "NVM_DIR/nvm.sh" <(declare -f nvm) 2>/dev/null; then
+        unset -f nvm
+        [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+    fi
     command cd "$@" || return $?
     nvm_path=$(nvm_find_up .nvmrc | tr -d '\n')
 

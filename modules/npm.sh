@@ -57,12 +57,6 @@ alias nipp="npm i && npm-install-peers"
 # npm global
 alias ng-list='npm list -g --depth 0'
 
-## functions:
-alias npm-remove-item='_(){ rm -rf node_modules/$1; }; _'
-
-## npm profile:
-alias e-npmrc='vim ~/.npmrc'
-
 # npm update check
 alias ncuu='ncu -u'
 alias ncuj='ncu "/^@jswork/"'

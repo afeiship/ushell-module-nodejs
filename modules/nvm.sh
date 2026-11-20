@@ -19,7 +19,7 @@ nvm() {
 
 cdnvm() {
     # ensure nvm is loaded (replaces our lazy stub, one-time cost)
-    if declare -F nvm >/dev/null && grep -q "NVM_DIR/nvm.sh" <(declare -f nvm) 2>/dev/null; then
+    if declare -F nvm >/dev/null && [[ "$(declare -f nvm)" == *"NVM_DIR/nvm.sh"* ]]; then
         unset -f nvm
         [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
     fi
